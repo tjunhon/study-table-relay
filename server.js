@@ -147,22 +147,3 @@ setInterval(() => {
 }, 20000);
 
 server.listen(PORT, () => console.log("Study Table relay listening on " + PORT));
-
-File 2: package.json
-
-json
-{
-  "name": "study-table-relay",
-  "version": "1.0.0",
-  "description": "Message relay for the Study Table multi-phone p5.js game",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "ws": "^8.18.0"
-  },
-  "engines": {
-    "node": ">=18"
-  }
-}
